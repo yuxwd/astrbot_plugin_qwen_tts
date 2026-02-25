@@ -1,0 +1,57 @@
+{
+    "api_key": {
+        "type": "string",
+        "description": "阿里云DashScope API密钥 (从https://help.aliyun.com/zh/model-studio/get-api-key获取)",
+        "default": ""
+    },
+    "model": {
+        "type": "string",
+        "description": "TTS模型名称 (qwen3-tts-flash 或 qwen3-tts-instruct-flash)",
+        "default": "qwen3-tts-flash"
+    },
+    "voice": {
+        "type": "string",
+        "description": "音色名称 (如: Cherry, Alice, Bob等)",
+        "default": "Cherry"
+    },
+    "language_type": {
+        "type": "string",
+        "description": "语种类型 (Auto, Chinese, English, Japanese, Korean等)",
+        "default": "Auto"
+    },
+    "instructions": {
+        "type": "string",
+        "description": "语音合成指令 (仅qwen3-tts-instruct-flash模型有效)",
+        "default": ""
+    },
+    "optimize_instructions": {
+        "type": "bool",
+        "description": "是否优化指令",
+        "default": false
+    },
+    "tts_probability": {
+        "type": "int",
+        "description": "TTS回复概率 (0-100, 0为禁用, 100为总是使用TTS)",
+        "default": 50
+    },
+    "max_text_length": {
+        "type": "int",
+        "description": "最大文本长度 (超过此长度的文本将不使用TTS)",
+        "default": 512
+    },
+    "save_audio": {
+        "type": "bool",
+        "description": "是否保存生成的音频文件",
+        "default": false
+    },
+    "stream_mode": {
+        "type": "bool",
+        "description": "是否使用流式输出模式",
+        "default": false
+    },
+    "output_both_text_and_audio": {
+        "type": "bool",
+        "description": "是否同时输出文字和语音 （未完善功能，请保持关闭要不会报错）",
+        "default": false
+    }
+}

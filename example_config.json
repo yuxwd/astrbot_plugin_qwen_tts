@@ -1,0 +1,13 @@
+{
+  "api_key": "sk-xxxxxxxxxxxxxxxx",
+  "model": "qwen3-tts-flash",
+  "voice": "Cherry",
+  "language_type": "Chinese",
+  "instructions": "",
+  "optimize_instructions": false,
+  "tts_probability": 50,
+  "max_text_length": 512,
+  "save_audio": false,
+  "stream_mode": false,
+  "output_both_text_and_audio": false
+}

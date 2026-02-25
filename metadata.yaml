@@ -1,0 +1,17 @@
+name: astrbot_plugin_qwen_tts
+display_name: 阿里云千问TTS语音合成
+desc: 基于阿里云DashScope千问TTS模型的语音合成插件，支持多种音色和指令控制
+version: v1.0.0
+author: CosyVoice
+repo: https://github.com/yourusername/astrbot_plugin_qwen_tts
+astrbot_version: ">=4.16"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - wecom
+  - lark
+  - dingtalk
+  - discord
+  - slack
+  - kook
